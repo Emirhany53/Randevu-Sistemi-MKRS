@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 import jakarta.persistence.CascadeType;
-
+//EMİRHAN 31
 //import org.hibernate.annotations.processing.Pattern;
 
 import jakarta.persistence.Column;
@@ -104,4 +104,5 @@ public class Kasaplar {
         saat.setKasap(null);
     }
 }
+
 
