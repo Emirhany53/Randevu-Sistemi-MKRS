@@ -43,9 +43,6 @@ public class Kasaplar {
     @Column(name = "ucret_kucukbas",precision = 10,scale = 2)
     private BigDecimal kucukbasFiyat;
 
-    @Column(name = "ucret_buyukbas", precision = 10,scale = 2)
-    private BigDecimal buyukbasFiyat;
-
     @Column(name = "arac_hizmeti")
     private Boolean aracHizmeti;
 
@@ -107,3 +104,4 @@ public class Kasaplar {
         saat.setKasap(null);
     }
 }
+
