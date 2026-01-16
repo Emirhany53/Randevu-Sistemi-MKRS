@@ -58,7 +58,6 @@ public class Kasaplar {
         this.adres = adres;
         this.aracHizmeti = aracHizmeti;
         this.aracUcret = aracUcret;
-        this.buyukbasFiyat = buyukbasFiyat;
         this.dukkanAd = dukkanAd;
         this.kucukbasFiyat = kucukbasFiyat;
         this.yetkiliAd = yetkiliAd;
@@ -76,10 +75,7 @@ public class Kasaplar {
 
     public BigDecimal getaracUcret(){return aracUcret;}
     public void setaracUcret(BigDecimal aracUcret){this.aracUcret = aracUcret;}
-
-    public BigDecimal getbuyukbasFİyat(){return buyukbasFiyat;}
-    public void setbuyukbasFiyat(BigDecimal buyukbasFiyat){this.buyukbasFiyat = buyukbasFiyat;}
-
+    
     public String getdukkanAd(){return dukkanAd;}
     public void setdukkanAd(String dukkanAd){this.dukkanAd = dukkanAd;}
 
